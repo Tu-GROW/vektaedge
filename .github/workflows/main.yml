@@ -1,4 +1,4 @@
-name: Deploy company website
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -32,4 +32,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build  # use ./dist for Vite
+          publish_dir: ./out
+          # cname: yourdomain.com  # remove if not using a custom domain
