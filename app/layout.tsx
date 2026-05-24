@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Vektaedge Technologies | Company Profile',
+  title: 'Vektaedge Technologies',
   description:
     'Vektaedge Technologies is a Kenyan technology company building practical, reliable, and scalable digital solutions for businesses and communities.',
 };
