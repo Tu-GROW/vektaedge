@@ -258,7 +258,6 @@ export default function Home() {
       </header>
 
       <section className="hero-surface relative min-h-screen overflow-hidden pt-28">
-        <div className="tech-grid absolute inset-0 opacity-70" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 pb-16 lg:min-h-[calc(100vh-7rem)] lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
           <div className="max-w-3xl">
             <p className="mb-5 inline-flex items-center gap-3 rounded-full border border-[#15171f]/10 bg-white/70 px-4 py-2 text-sm font-bold text-[#1e7a5f] shadow-[0_1px_0_rgba(21,23,31,0.08)]">
@@ -519,9 +518,17 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#15171f] px-5 py-8 text-white lg:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-bold text-white">Vektaedge Technologies</p>
           <p className="italic">&quot;Digital solutions that help businesses launch, grow, and perform better.&quot;</p>
+          <div className="flex gap-5">
+            <a className="transition hover:text-white" href="/terms">
+              Terms of Service
+            </a>
+            <a className="transition hover:text-white" href="/privacy">
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </main>
